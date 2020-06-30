@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Contoso.Library</PackageId>
+    <Authors>Philip</Authors>
+    <Product>Philip'sContoso.Library</Product>
+    <Company>東貝光電</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>測試git</PackageReleaseNotes>
+    <IncludeSymbles>ture</IncludeSymbles>
+    <IncludeSource>true</IncludeSource>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SourceLink.Create.CommandLine" Version="2.8.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  
+    
+  
+</Project>
